@@ -47,7 +47,7 @@ def exploit (url) :
 
 
 
-	res      = requests.get (url, verify = False,timeout=2)
+	res      = requests.get (url, verify = False,timeout=5)
 
 	if res.status_code==404:
 		open ('Vulnerable.txt', 'a').write (url + '\n')
