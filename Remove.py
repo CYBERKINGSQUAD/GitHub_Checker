@@ -3,7 +3,7 @@
 # No script kiddies please!!
 # Author Rh077king
 # CYBER KING SQUAD
-#Line + Duplicate Remover 
+#Line  Remover 
 import os, sys, codecs
 from platform import system
 if system() == 'Linux':
@@ -35,7 +35,7 @@ try:
                     fw.write(line)
     
 
-    print ("""\033[1;32;40mDeleted[ Check Your Output File Dear ] [ Stay_With_CKS ]\n""")
+    print ("""\033[1;32;40mDeleted[ Check Your  File Dear ] [ Stay_With_CKS ]\n""")
 
 except:
     
